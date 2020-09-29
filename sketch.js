@@ -40,5 +40,12 @@ function draw() {
  
 }
 
+function keyPressed() {
+	if(keyCode == UP_ARROW){
+
+		Matter.Body.applyForce(crumbledpaper.body,crumbledpaper.body.position,{x:1200,y:490});
+	}
+}
+
 
 
